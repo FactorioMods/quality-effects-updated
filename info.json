@@ -1,13 +1,18 @@
 {
-  "name": "QualityEffects",
-  "version": "0.1.1",
-  "title": "Quality Effects",
+  "name": "quality-effects-updated",
+  "version": "1.0.0",
+  "title": "Quality Effects: Updated",
   "author": "Andrey",
-  "factorio_version": "2.0",
-  "description": "This mod adds more ways that quality affects assembling machines",
+  "factorio_version": "2.1",
+  "description": "Quality adds module slots to assembling machines. This fork preserves existing recipe, items, module qualities, fluids and crafting progress when converting machines, including protected machines.",
   "dependencies": [
-    "base >= 2.0.23", 
-    "quality >= 2.0.23", 
-    "? space-age >= 2.0.23"
-  ]
+    "base >= 2.1.24",
+    "quality >= 2.0.23",
+    "? space-age >= 2.0.23",
+    "! QualityEffects"
+  ],
+  "migrates_from": [
+    "QualityEffects"
+  ],
+  "homepage": "https://github.com/FactorioMods/quality-effects-updated"
 }

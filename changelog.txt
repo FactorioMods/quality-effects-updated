@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-12
+  Features:
+    - Preserve assembler inventories, fluids and crafting state with native fast replacement.
+    - Retain quality variants of machines generated during data updates, including Quality Assurance AMS machines.
+    - Preserve original module-slot capacity when other mods adjust quality levels after initial variant generation.
+    - Preserve complete crafter trash stacks during native replacement, including quality, tags, partial ammunition and spoilage.
+  Compatibility:
+    - Support Factorio 2.1 and native original-mod ownership migration.
